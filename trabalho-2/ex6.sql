@@ -17,6 +17,7 @@ FROM
     Propriedade
 GROUP BY 
     tipo_hospedagem
+LIMIT 10;
 
 -- Mostre quantas localizações existem na base
 
