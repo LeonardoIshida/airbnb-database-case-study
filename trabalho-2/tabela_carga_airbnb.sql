@@ -149,6 +149,7 @@ DROP TABLE IF EXISTS Listings_norm CASCADE;
 CREATE TABLE Listings_norm AS (
     SELECT
         id,
+        host_id,
         listing_url,
         name,
         description,
