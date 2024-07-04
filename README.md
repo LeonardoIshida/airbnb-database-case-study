@@ -22,6 +22,60 @@
 ## About The Project
 
 This repository showcases two university projects designed to explore and demonstrate key concepts in database design and implementation. These projects delve into various aspects of database management, from schema design and data modeling to query optimization and data manipulation. They provide practical experience in working with real-world database scenarios and highlight the importance of efficient data storage and retrieval.
+
+### Project 1 - Database for a Property Rental Service
+
+**Project Description:**
+
+This project focuses on designing and implementing a relational database for a company that provides an online platform for listing, searching, and booking accommodation properties worldwide. The system caters to both hosts (property owners) and guests (travelers).
+
+**Key Features:**
+
+*   **Property Management:** Stores detailed information about properties, including type, amenities, availability, pricing, and booking rules.
+*   **User Management:** Manages user accounts for both hosts and guests, including their personal information, communication history, and payment details.
+*   **Booking System:** Handles property reservations, confirmations, cancellations, and payments.
+*   **Review and Rating System:** Allows guests to leave reviews and ratings for properties and hosts.
+
+**Repository Contents:**
+
+*   **ER Diagram:**  Visual representation of the database schema.
+*   **ER-to-Relational Mapping:**  Detailed mapping of entities and relationships from the ER diagram to the relational model.
+*   **SQL Scripts:**  SQL scripts for creating tables, loading data, and executing various queries.
+*   **Query Results:**  Documentation and results of the executed SQL queries.
+
+This project provides a practical demonstration of database design principles and SQL skills in the context of a real-world application.
+
+### Project 2 - Database for a Property Rental Service (Extended ER Model and Data Normalization)
+
+This repository contains the second practical project for the Database course, building upon the work done in  `Project 1`.
+
+**Project Description:**
+
+This project expands on the database design for a property rental service, focusing on:
+
+*   Implementing the Extended Entity-Relationship (EER) model with generalization and aggregation abstractions.
+*   Mapping the EER model to a relational model, addressing composite and multi-valued attributes.
+*   Loading and normalizing real-world data from Inside Airbnb datasets for Rio de Janeiro.
+*   Performing data correlation and loading data into the designed tables.
+*   Executing SQL queries on the integrated dataset.
+
+**Key Features:**
+
+*   **EER Modeling:** Utilizes generalization and aggregation to create a more expressive and efficient data model.
+*   **Data Normalization:**  Normalizes the loaded data to BCNF to minimize redundancy and improve data integrity.
+*   **Real-World Dataset Integration:** Incorporates and analyzes real-world data from a publicly available source.
+*   **Advanced SQL Queries:** Includes queries that utilize views and indexes for optimized data retrieval.
+
+**Repository Contents:**
+
+*   **EER Diagram:** Visual representation of the database schema using the EER model.
+*   **ER-to-Relational Mapping:** Detailed mapping of the EER diagram to the relational model, including mapping decisions and alternatives.
+*   **Data Correlation:** Table showing the correlation between attributes in the designed tables and the loaded data from Inside Airbnb.
+*   **Normalization Process:** Documentation of the normalization process applied to the Inside Airbnb data.
+
+This project underscores the importance of a robust database design and effective data management practices for handling real-world data in a property rental application.
+
+
   
 ### Built With
 
