@@ -23,6 +23,11 @@
 
 This repository showcases two university projects designed to explore and demonstrate key concepts in database design and implementation. These projects delve into various aspects of database management, from schema design and data modeling to query optimization and data manipulation. They provide practical experience in working with real-world database scenarios and highlight the importance of efficient data storage and retrieval.
 
+## 🤝 Contributors
+- [Victor H. T. Amaral](https://github.com/AmaralVh) <br>
+- [João Pedro B. Silva](https://github.com/buzzo-cancri) <br>
+- [Isaac H. R. Rosendo](https://github.com/IsaacHaRR) <br>
+
 ### Project 1 - Database for a Property Rental Service
 
 **Project Description:**
